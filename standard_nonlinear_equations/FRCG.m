@@ -21,7 +21,7 @@ switch method
         xi = para.xik;
         normF = norm(F);
 %         normJtF = norm(JtF);
-        parMIN = min(1,xi*normF^(alpha+theta));
+        parMIN = min(sqrt(n),xi*normF^(alpha+theta));
         while norm(r0) > tau*min(parMIN,mu*norm(d1)) %&& InItr<=100
             Jp0 = J*p0;
             Ap0 = J'*Jp0+mu*p0;
