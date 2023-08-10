@@ -6,6 +6,8 @@ Yin, J., Jian, J., Ma, G.: A modified inexact Levenberg–Marquardt method with 
 If you use/modify this code, please cite the above paper appropriately.
 
 Questions/comments/suggestions about the codes are welcome.
+
 Jianghua Yin, jianghuayin1017@126.com
+
 Jinbao Jian, jianjb@gxu.edu.cn 
 
